@@ -1,0 +1,4 @@
+server:asw.Clock30
+service set-client-fov-tan-angle-multiplier 0.80 0.65
+service enable-adaptive-gpu-perf-scale on
+exit
