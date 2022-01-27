@@ -20,7 +20,7 @@ Just execute the desired batch file so it can automate many startup or close tas
 4. Start Oculus Client
 5. Start Steam client
 6. Start OBS
-7. Waits for Link/Airlink to startuo (oculusdash.exe)
+7. Waits for Link/Airlink to startup (oculusdash.exe)
 8. Set Oculus Debug tools fov and ASW settings (just to make sure ASW is correct)
 9. Set audio devices volume
 10. Start SteamVR
