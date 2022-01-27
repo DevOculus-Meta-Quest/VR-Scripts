@@ -4,6 +4,10 @@ A collection of startup and close scripts for automating the usage of Oculus/Met
 
 By default, the start vr script starts with OBS and VMC, so there are options to start without OBS.
 
+# But, why?
+
+There are many tweeks, apps to start and checks I have to do before start playing PCVR with the Meta Quest 2. Those scripts helped me a lot, so I can just run it up and forget. The idea to start the script and put my headset on, start Airlink and enjoy. When I'm done, I just run closevr and i will close all apps, games and set my default desktop settings for my personal use.
+
 # How it works?
 
 Just execute the desired batch file so it can automate many startup or close tasks.
