@@ -56,3 +56,9 @@ To accomplish many of those tasks, I am using a tool called NirCmd, an amazing t
 # Oculus DT CLI
 
 I am also including the original Oculus Debug Tool CLI exe file - https://www.virustotal.com/gui/file/e4dc214497b4daf264d21e926c738649f969ac21c31eaf72671c510508ddc0a9
+
+# Shorcuts
+
+I have created a few shorcuts, so I can change its icons and force them to start the command prompt window minimezed.
+
+![image](https://user-images.githubusercontent.com/25224882/151407584-9508d7c4-2e13-4afd-9dbf-213406de23d1.png)
