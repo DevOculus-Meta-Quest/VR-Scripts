@@ -36,6 +36,6 @@ TIMEOUT /T 2
 
 TIMEOUT /T 2
 
-"%~dp0\nircmd.exe" win max process ElectronIM.exe
+"%~dp0\nircmd.exe" win max process Ferdi.exe
 
 exit 0

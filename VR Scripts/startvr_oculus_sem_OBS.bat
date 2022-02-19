@@ -29,6 +29,6 @@ TIMEOUT /T 2
 "%~dp0\nircmd.exe" setsysvolume 52428 "Fones de ouvido"
 "%~dp0\nircmd.exe" setsysvolume 65535 "Headset Microphone"
 
-"%~dp0\nircmd.exe" win max process ElectronIM.exe
+"%~dp0\nircmd.exe" win max process Ferdi.exe
 
 exit 0

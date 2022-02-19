@@ -18,10 +18,10 @@ TIMEOUT /T 1
 "%~dp0\nircmd.exe" setdefaultsounddevice "BM900" 1
 "%~dp0\nircmd.exe" setdefaultsounddevice "BM900" 2
 
-"%~dp0\nircmd.exe" setsysvolume 19660 "Alto-falantes"
+"%~dp0\nircmd.exe" setsysvolume 9830 "Alto-falantes"
 "%~dp0\nircmd.exe" setsysvolume 65535 "BM900"
 
-TIMEOUT /T 10
+TIMEOUT /T 20
 
 "%~dp0\nircmd.exe" closeprocess OculusClient.exe
 
