@@ -27,7 +27,7 @@ Just execute the desired batch file so it can automate many startup or close tas
 11. Start Virtual Motion Capture
 12. Show desktop
 13. Maximize OBS
-14. Maximize ElectronIM
+14. Maximize Ferdi
 
 # CloseVR:
 
@@ -39,7 +39,7 @@ Just execute the desired batch file so it can automate many startup or close tas
 6. Set audio devices volume
 7. Close Oculus Client
 8. Set Oculus Debug tools fov and ASW default settings
-9. et MSI AfterBurner profile to 1
+9. Set MSI AfterBurner profile to 1
 
 # Variants
 
