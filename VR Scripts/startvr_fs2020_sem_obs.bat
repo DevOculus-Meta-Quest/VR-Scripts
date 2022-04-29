@@ -1,10 +1,16 @@
 @echo off
 
+title Iniciando VR pela Oculus sem OBS jogando FS2020
+
+"%~dp0\nircmd.exe" win min ititle "Shortcuts"
+
 @echo Ajustando FOV e ASW:
 
 @echo.
 
 "%~dp0\OculusDebugToolCLI.exe" -f odt_fs2020.txt
+
+title Iniciando VR pela Oculus sem OBS jogando FS2020
 
 @echo Ajustando perfil do MSI Afterburner:
 
@@ -43,6 +49,8 @@ goto LOOPSTART
 
 "%~dp0\OculusDebugToolCLI.exe" -f odt_fs2020.txt
 
+title Iniciando VR pela Oculus sem OBS jogando FS2020
+
 @echo Mostrando a area de trabalho:
 
 @echo.
@@ -69,5 +77,11 @@ powershell -command "& { $x = New-Object -ComObject Shell.Application; $x.Toggle
 @echo.
 
 "%~dp0\nircmd.exe" sendkeypress ctrl+shift+alt+f2
+
+@echo Tudo pronto! Fechando...
+
+@echo.
+
+timeout /t 5
 
 exit 0

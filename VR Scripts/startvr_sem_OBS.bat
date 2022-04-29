@@ -1,10 +1,16 @@
 @echo off
 
+title Iniciando VR pela Steam sem OBS
+
+"%~dp0\nircmd.exe" win min ititle "Shortcuts"
+
 @echo Ajustando FOV e ASW:
 
 @echo.
 
 "%~dp0\OculusDebugToolCLI.exe" -f odt_regular.txt
+
+title Iniciando VR pela Steam sem OBS
 
 @echo Ajustando perfil do MSI Afterburner:
 
@@ -33,6 +39,12 @@
 
 "%~dp0\nircmd.exe" exec min "%PROGRAMFILES(X86)%\Steam\steam.exe"
 
+"%~dp0\nircmd.exe" wait 5000
+
+@echo Minimizando janelas:
+
+@echo.
+
 @echo Aguardando iniciar o AirLink:
 
 :LOOPSTART
@@ -48,6 +60,8 @@ goto LOOPSTART
 @echo.
 
 "%~dp0\OculusDebugToolCLI.exe" -f odt_regular.txt
+
+title Iniciando VR pela Steam sem OBS
 
 "%~dp0\nircmd.exe" wait 2000
 

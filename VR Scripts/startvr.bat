@@ -1,10 +1,16 @@
 @echo off
 
+title Iniciando VR pela Steam com OBS
+
+"%~dp0\nircmd.exe" win min ititle "Shortcuts"
+
 @echo Ajustando FOV e ASW:
 
 @echo.
 
 "%~dp0\OculusDebugToolCLI.exe" -f odt_regular.txt
+
+title Iniciando VR pela Steam com OBS
 
 @echo Ajustando perfil do MSI Afterburner:
 
@@ -54,6 +60,8 @@ goto LOOPSTART
 @echo.
 
 "%~dp0\OculusDebugToolCLI.exe" -f odt_regular.txt
+
+title Iniciando VR pela Steam com OBS
 
 "%~dp0\nircmd.exe" wait 3000
 
