@@ -39,6 +39,10 @@ title Iniciando VR pela Oculus com OBS
 
 START "OBS" /d "C:\OBS Antonio Portable\bin\64bit\" obs64.exe
 
+"%~dp0\nircmd.exe" wait 2000
+
+"%~dp0\nircmd.exe" win min ititle "Oculus"
+
 @echo Aguardando iniciar o AirLink:
 
 :LOOPSTART

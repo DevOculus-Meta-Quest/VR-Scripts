@@ -37,6 +37,10 @@ title Iniciando VR pela Oculus com OBS jogando FS2020
 
 START "OBS" /d "C:\OBS Antonio Portable\bin\64bit\" obs64.exe
 
+"%~dp0\nircmd.exe" wait 2000
+
+"%~dp0\nircmd.exe" win min ititle "Oculus"
+
 @echo Aguardando iniciar o AirLink:
 
 :LOOPSTART
@@ -51,7 +55,7 @@ goto LOOPSTART
 
 @echo.
 
-"%~dp0\OculusDebugToolCLI.exe" -f odt_fs2020.txt
+"%~dp0\OculusDebugToolCLI.exe" -f odt_asw_30hz.txt
 
 title Iniciando VR pela Oculus com OBS jogando FS2020
 

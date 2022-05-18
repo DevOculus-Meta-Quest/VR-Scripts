@@ -45,6 +45,10 @@ START "OBS" /d "C:\OBS Antonio Portable\bin\64bit\" obs64.exe
 
 "%~dp0\nircmd.exe" exec min "%PROGRAMFILES(X86)%\Steam\steam.exe"
 
+"%~dp0\nircmd.exe" wait 2000
+
+"%~dp0\nircmd.exe" win min ititle "Oculus"
+
 @echo Aguardando iniciar o AirLink:
 
 :LOOPSTART
@@ -84,7 +88,7 @@ START steam://rungameid/250820
 
 @echo.
 
-"%~dp0\nircmd.exe" exec min "%obspath%\my stuff\Virtual Motion Capture\VirtualMotionCapture.exe"
+"%~dp0\nircmd.exe" exec min "C:\OBS Antonio Portable\my stuff\Virtual Motion Capture\VirtualMotionCapture.exe"
 
 "%~dp0\nircmd.exe" wait 10000
 

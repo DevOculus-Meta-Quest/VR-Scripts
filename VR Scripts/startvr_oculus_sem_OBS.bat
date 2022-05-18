@@ -35,6 +35,10 @@ title Iniciando VR pela Oculus sem OBS
 
 @echo Iniciando o OBS:
 
+"%~dp0\nircmd.exe" wait 2000
+
+"%~dp0\nircmd.exe" win min ititle "Oculus"
+
 @echo.
 
 :LOOPSTART

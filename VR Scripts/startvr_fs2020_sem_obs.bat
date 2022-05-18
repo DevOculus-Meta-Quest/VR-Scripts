@@ -35,6 +35,10 @@ title Iniciando VR pela Oculus sem OBS jogando FS2020
 
 @echo Aguardando iniciar o AirLink:
 
+"%~dp0\nircmd.exe" wait 2000
+
+"%~dp0\nircmd.exe" win min ititle "Oculus"
+
 :LOOPSTART
 FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq OculusDash.exe"') DO IF %%x == OculusDash.exe goto FOUND
 "%~dp0\nircmd.exe" wait 2000
@@ -47,7 +51,7 @@ goto LOOPSTART
 
 @echo.
 
-"%~dp0\OculusDebugToolCLI.exe" -f odt_fs2020.txt
+"%~dp0\OculusDebugToolCLI.exe" -f odt_asw_30hz.txt
 
 title Iniciando VR pela Oculus sem OBS jogando FS2020
 

@@ -39,7 +39,12 @@ title Iniciando VR pela Steam sem OBS
 
 "%~dp0\nircmd.exe" exec min "%PROGRAMFILES(X86)%\Steam\steam.exe"
 
-"%~dp0\nircmd.exe" wait 5000
+
+"%~dp0\nircmd.exe" wait 2000
+
+"%~dp0\nircmd.exe" win min ititle "Oculus"
+
+"%~dp0\nircmd.exe" wait 3000
 
 @echo Minimizando janelas:
 
