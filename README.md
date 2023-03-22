@@ -1,64 +1,64 @@
 # VR-Scripts
 
-A collection of startup and close scripts for automating the usage of Oculus/Meta Quest with Link/Airlink and SteamVR.
+A comprehensive collection of startup and shutdown scripts designed to streamline the Oculus/Meta Quest experience with Link/Airlink and SteamVR. By automating the process of starting and closing multiple apps, these scripts enable you to simply run them and enjoy your VR gaming experience without the hassle of manual setup.
 
-By default, the start vr script starts with OBS and VMC, so there are options to start without OBS.
+*Note: The default start VR script launches OBS and VMC. Options are available to start without OBS if needed.*
 
-# But, why?
+## Why Use VR-Scripts?
 
-There are many tweeks, apps to start and checks I have to do before start playing PCVR with the Meta Quest 2. Those scripts helped me a lot, so I can just run it up and forget. The idea to start the script and put my headset on, start Airlink and enjoy. When I'm done, I just run closevr and i will close all apps, games and set my default desktop settings for my personal use.
+Setting up the Meta Quest 2 for PCVR gaming involves numerous tweaks, app launches, and checks. These scripts simplify the process, allowing you to start your VR experience with minimal effort. Simply run the script, put on your headset, activate Airlink, and enjoy. When you're finished, run the `closevr` script to close all apps, games, and return your desktop settings to their default state.
 
-# How it works?
+## How Does It Work?
 
-Just execute the desired batch file so it can automate many startup or close tasks.
+To automate various startup or shutdown tasks, simply execute the appropriate batch file.
 
-# StartVR running SteamVR:
+### StartVR with SteamVR:
 
-1. Set Oculus Debug tools fov and ASW settings
-2. Set MSI AfterBurner profile to 1
-3. Set default audio output devices for the Quest
-4. Start Oculus Client
-5. Start Steam client
-6. Start OBS
-7. Waits for Link/Airlink to startup (oculusdash.exe)
-8. Set Oculus Debug tools fov and ASW settings (just to make sure ASW is correct)
-9. Set audio devices volume
-10. Start SteamVR
-11. Start Virtual Motion Capture
-12. Show desktop
-13. Maximize OBS
-14. Maximize Ferdi
+1. Configure Oculus Debug Tool FOV and ASW settings.
+2. Set MSI AfterBurner profile to 1.
+3. Set default audio output devices for the Quest.
+4. Start Oculus Client.
+5. Start Steam client.
+6. Start OBS.
+7. Wait for Link/Airlink to startup (oculusdash.exe).
+8. Configure Oculus Debug Tool FOV and ASW settings again (to ensure correct ASW settings).
+9. Set audio device volume.
+10. Start SteamVR.
+11. Start Virtual Motion Capture.
+12. Show desktop.
+13. Maximize OBS.
+14. Maximize Ferdi.
 
-# CloseVR:
+### CloseVR:
 
-1. Close SteamVR
-2. Kills Link/Airlink connection
-3. Close Steam client
-4. Close Virtual Motion Capture
-5. Set default audio output devices
-6. Set audio devices volume
-7. Close Oculus Client
-8. Set Oculus Debug tools fov and ASW default settings
-9. Set MSI AfterBurner profile to 1
+1. Close SteamVR.
+2. Terminate Link/Airlink connection.
+3. Close Steam client.
+4. Close Virtual Motion Capture.
+5. Set default audio output devices.
+6. Set audio device volume.
+7. Close Oculus Client.
+8. Restore Oculus Debug Tool FOV and ASW default settings.
+9. Set MSI AfterBurner profile to 1.
 
-# Variants
+## Variants
 
-There are a couple of variants for the startup scrip, in case you are running a game that needs different FOV and ASW settings, like FS2020, for not starting OBS and to not start SteamVR in case you are playing an Oculus library game.
+Several variants of the startup script are available for games requiring different FOV and ASW settings, such as FS2020, or if you prefer not to start OBS or SteamVR when playing Oculus library games.
 
-# Script editing
+## Customizing Scripts
 
-Off course you will need to change those batch files to match your hadrware and settings, feel free to add or remove any lines as you please.
+Feel free to modify these batch files to suit your hardware and preferences. Add or remove lines as necessary.
 
-# NirCMD
+## NirCMD
 
-To accomplish many of those tasks, I am using a tool called NirCmd, an amazing tool that simplifies everything and helps with chaning core windows settings without much of a hassle. https://www.nirsoft.net/utils/nircmd2.html
+Many tasks are accomplished using NirCmd, a versatile tool for easily changing core Windows settings. Download NirCmd here: https://www.nirsoft.net/utils/nircmd2.html
 
-# Oculus DT CLI
+## Oculus Debug Tool CLI
 
-I am also including the original Oculus Debug Tool CLI exe file - https://www.virustotal.com/gui/file/e4dc214497b4daf264d21e926c738649f969ac21c31eaf72671c510508ddc0a9
+The original Oculus Debug Tool CLI executable file is also included. Download link: https://www.virustotal.com/gui/file/e4dc214497b4daf264d21e926c738649f969ac21c31eaf72671c510508ddc0a9
 
-# Shorcuts
+## Shortcuts
 
-I have created a few shorcuts, so I can change its icons and force them to start the command prompt window minimezed.
+A few shortcuts are provided, enabling you to change their icons and force the command prompt window to start minimized.
 
 ![image](https://user-images.githubusercontent.com/25224882/151407584-9508d7c4-2e13-4afd-9dbf-213406de23d1.png)
