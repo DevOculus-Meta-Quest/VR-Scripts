@@ -1,0 +1,3 @@
+service set-client-fov-tan-angle-multiplier 0.80 0.70
+server:asw.Clock30
+exit
